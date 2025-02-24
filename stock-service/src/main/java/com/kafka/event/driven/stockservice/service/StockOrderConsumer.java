@@ -1,7 +1,7 @@
 package com.kafka.event.driven.stockservice.service;
 
 import com.kafka.event.driven.basedomainservice.entity.OrderEvent;
-import com.kafka.event.driven.stockservice.OrderEntity;
+import com.kafka.event.driven.stockservice.entity.OrderEntity;
 import com.kafka.event.driven.stockservice.repository.OrderRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

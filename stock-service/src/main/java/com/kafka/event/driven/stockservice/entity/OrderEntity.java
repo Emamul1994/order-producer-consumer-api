@@ -1,6 +1,5 @@
-package com.kafka.event.driven.stockservice;
+package com.kafka.event.driven.stockservice.entity;
 
-import com.kafka.event.driven.basedomainservice.entity.Order;
 import jakarta.persistence.*;
 
 @Entity
