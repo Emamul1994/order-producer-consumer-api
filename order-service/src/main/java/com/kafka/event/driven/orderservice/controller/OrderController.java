@@ -23,8 +23,6 @@ public class OrderController {
     @PostMapping("/placeOrder")
     public String placeOrder(@RequestBody Order order) {
 
-        order.setOrderId(UUID.randomUUID().toString());
-
         OrderEvent orderEvent = new OrderEvent();
         orderEvent.setMessage("Order placed in pending state");
         orderEvent.setStatus("PENDING");
